@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KODLUYORUZ TO-DO</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.js"
+      integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="upper-div">
+      <img
+        src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
+        alt="kodluyoruz-logo"
+      />
+      <h1>Yapılacaklar Listesi</h1>
+      <form class="form" id="form">
+        <input
+          class="input-section"
+          id="todo"
+          placeholder="Bugün ne yapacaksın?"
+        />
+        <button type="submit" class="button">Ekle</button>
+      </form>
+      <ul class="todos" id="todos"></ul>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
